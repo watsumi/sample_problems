@@ -19,9 +19,9 @@ RSpec.describe SampleProblems::List do
 
       it "return four question" do
         expected_arr = [
-          { contens_id: "abc063", id: "abc063_a", title: "A. Restricted" },
-          { contens_id: "abc063", id: "abc063_b", title: "B. Varied" },
           { contens_id: "abc063", id: "arc075_a", title: "C. Bugged" },
+          { contens_id: "abc063", id: "abc063_b", title: "B. Varied" },
+          { contens_id: "abc063", id: "abc063_a", title: "A. Restricted" },
           { contens_id: "abc063", id: "arc075_b", title: "D. Widespread" }
         ]
         expect(described_class.find_by_contens_id(contens_id)).to eq(expected_arr)

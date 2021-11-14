@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = ["sample gem for my product"]
   spec.homepage      = "https://github.com/watsumi/sample_problems"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 3.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.7.2")
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org/"
 

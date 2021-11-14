@@ -6,7 +6,7 @@ require:
 AllCops:
   RubyInterpreters:
     - ruby
-  TargetRubyVersion: 3.0
+  TargetRubyVersion: 2.7.2
   NewCops: enable
 
 Style/StringLiterals:
