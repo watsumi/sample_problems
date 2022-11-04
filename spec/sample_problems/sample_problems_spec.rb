@@ -31,7 +31,7 @@ RSpec.describe SampleProblems::List do
     context "when find contens_id in data" do
       let(:contens_id) { "aaa000" }
 
-      it "return Hyakumeizan::List::NoQuestionDataError" do
+      it "return SampleProblems::List::NoQuestionDataError" do
         expect do
           described_class.find_by_contens_id("aaa000")
         end.to raise_error(SampleProblems::List::NoQuestionDataError)
